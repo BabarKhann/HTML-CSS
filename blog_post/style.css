@@ -39,12 +39,20 @@ h2 {
   width: 75%;
   float: left;
   padding-right: 30px;
+  position: relative;
 }
 
 .blog-post img {
   height: 200px;
   width: auto;
   border: 1px solid red;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: burlywood;
 }
 
 .other-posts {
