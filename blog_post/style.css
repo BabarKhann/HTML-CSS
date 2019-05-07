@@ -41,14 +41,32 @@ h2 {
   padding-right: 30px;
 }
 
+.blog-post img {
+  height: 200px;
+  width: auto;
+  border: 1px solid red;
+}
+
 .other-posts {
   width: 25%;
   float: left;
 }
 
+.other {
+  margin-bottom: 40px;
+}
+
 .author-box {
   padding-top: 20px;
   border-top: 1px solid rgb(90, 90, 90);
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 50%;
+  float: left;
 }
 
 .main-text {
@@ -58,4 +76,7 @@ h2 {
 
 .html-text {
   font-size: 22px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
 }
